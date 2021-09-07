@@ -4,13 +4,15 @@ namespace AbramianHomeWork.Abram
     public class Abramian
     {
         private IntegerTask _integer;
+        private BooleanTask _boolean;
         public Abramian()
         {
             _integer = new IntegerTask();
+            _boolean = new BooleanTask();
         }
         public void Run()
         {
-            Console.WriteLine(_integer.Integer30(2301));
+            Console.WriteLine(_boolean.Boolean20(113));
         }
     }
 }
