@@ -1,12 +1,8 @@
-﻿using System;
-
-namespace AbramianHomeWork
+﻿namespace AbramianHomeWork
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        private static void Main(string[] args)
+            => new Abram.Abramian().Run();
     }
 }
