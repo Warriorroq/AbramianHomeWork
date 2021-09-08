@@ -14,10 +14,8 @@ namespace AbramianHomeWork.Abram
         }
         public void Run()
         {
-            var a = _if.If5(1, 2, 3, 4, 5, -1, 0, 0, 0, -2, -3);
-            foreach(var b in a)
+            foreach(var b in _if.If16(1,99,9))
                 Console.WriteLine(b);
-            
         }
     }
 }
