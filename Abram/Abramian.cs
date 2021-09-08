@@ -12,7 +12,8 @@ namespace AbramianHomeWork.Abram
         }
         public void Run()
         {
-            Console.WriteLine(_boolean.Boolean20(113));
+            Console.WriteLine(_boolean.Boolean34(2,2));
+            
         }
     }
 }
