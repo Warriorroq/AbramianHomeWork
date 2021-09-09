@@ -7,15 +7,17 @@ namespace AbramianHomeWork.Abram
         private IntegerTask _integer;
         private BooleanTask _boolean;
         private If _if;
+        private Case _case;
         public Abramian()
         {
             _integer = new IntegerTask();
             _boolean = new BooleanTask();
             _if = new If();
+            _case = new Case();
         }
         public void Run()
         {
-            Console.WriteLine(_if.If30(-4));
+            Console.WriteLine(_case.Case2(1));
         }
     }
 }
