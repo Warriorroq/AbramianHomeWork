@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 namespace AbramianHomeWork.Abram
 {
     public class Abramian
@@ -14,8 +15,7 @@ namespace AbramianHomeWork.Abram
         }
         public void Run()
         {
-            foreach(var b in _if.If16(1,99,9))
-                Console.WriteLine(b);
+            Console.WriteLine(_if.If30(-4));
         }
     }
 }
