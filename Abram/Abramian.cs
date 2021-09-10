@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Numerics;
 namespace AbramianHomeWork.Abram
 {
     public class Abramian
@@ -17,8 +16,7 @@ namespace AbramianHomeWork.Abram
         }
         public void Run()
         {
-            foreach(var i in _case.Case10('С' , 1, 1, 1, 1, -1, -1, 1, 1, 0))
-                Console.WriteLine(i);
+            Console.WriteLine(_case.Case20(25, 7));
         }
     }
 }
