@@ -17,7 +17,8 @@ namespace AbramianHomeWork.Abram
         }
         public void Run()
         {
-            Console.WriteLine(_case.Case2(1));
+            foreach(var i in _case.Case10('С' , 1, 1, 1, 1, -1, -1, 1, 1, 0))
+                Console.WriteLine(i);
         }
     }
 }
