@@ -18,7 +18,7 @@ namespace AbramianHomeWork.Abram
         }
         public void Run()
         {
-            Console.WriteLine(_for.For7(2, 4));
+            Console.WriteLine(_for.For13(4));
         }
     }
 }
