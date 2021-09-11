@@ -54,5 +54,39 @@ namespace AbramianHomeWork.Abram
             }
             return nums;
         }
+        public int For17(int a, int n)
+        {
+            int sum = 1, a1 = a;
+            for (var i = 1; i <= n; i++)
+            {
+                sum += a1;
+                a1 *= a;
+            }
+            return sum;
+        }
+        public int For18(int a, int n)
+        {
+            int sum = 1, a1 = a, sign = -1;
+            for (var i = 1; i <= n; i++)
+            {
+                sum += sign * a1;
+                a1 *= a;
+                sign *= -1;
+            }
+            return sum;
+        }
+        public List<decimal> For19(int n)
+        {
+            var nums = new List<decimal>();
+            nums.Add(1);
+            decimal num1 = 1, num2 = 2;
+            for(;n > 0;n--)
+            {
+                nums.Add(num1 * num2);
+                num2++; 
+                num1++;
+            }
+            return nums;
+        }
     }
 }
