@@ -37,5 +37,22 @@ namespace AbramianHomeWork.Abram
             => Enumerable.Range(0, n).Select(x => (n + x)*(n + x)).Sum();
         public float For12(int n)
             => Enumerable.Range(1, n).Select(x => (1 + x / 10f)).Aggregate((x, y) => x * y);
+        public float For13(int n)
+            => Enumerable.Range(1, n).Select(x => (x % 2 == 0 ? -1 : 1) * (1 + x / 10f)).Sum();
+        public float For14(int n)
+            => Enumerable.Range(1, n).Select(x => 2 * x - 1).Sum();
+        public int For15(int a, int n)
+            => Enumerable.Range(0, n).Select(x => a).Aggregate((x, y) => x * y);
+        public List<int> For16(int a, int n)
+        {
+            var nums = new List<int>();
+            var a1 = a;
+            for (var i = 1;i<=n;i++)
+            {
+                nums.Add(a1);
+                a1 *= a;
+            }
+            return nums;
+        }
     }
 }
